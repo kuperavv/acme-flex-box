@@ -46,7 +46,7 @@
 .input-form > form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   border: 1px solid black;
   border-radius: 5px;
   width: 50%;
@@ -58,10 +58,6 @@
 
 #create-user {
   width: 100%;
-}
-
-.input-form > form > *:first-child {
-  align-self: flex-start;
 }
 
 .input-fields {
@@ -86,6 +82,7 @@
 .btm-buttons {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .btm-buttons > #clear {
